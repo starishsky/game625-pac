@@ -51,11 +51,6 @@ public class Character : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Herb")
-        {
-            Debug.Log("DONK");
-            Destroy(other.gameObject);
-        }
 
         if (other.gameObject.tag == "Pellet")
         {

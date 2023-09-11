@@ -2317,6 +2317,7 @@ GameObject:
   - component: {fileID: 287549123}
   - component: {fileID: 287549122}
   - component: {fileID: 287549127}
+  - component: {fileID: 287549128}
   m_Layer: 3
   m_Name: leon
   m_TagString: Player
@@ -2469,6 +2470,19 @@ MonoBehaviour:
   deathScreen: {fileID: 609064383}
   userInt: {fileID: 1336049746}
   disclaimer: {fileID: 214345082}
+--- !u!114 &287549128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287549121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1d10e154458244f9a0526e09a19b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: 0
 --- !u!43 &290537386
 Mesh:
   m_ObjectHideFlags: 0
